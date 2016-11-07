@@ -69,5 +69,18 @@ CheckStyle Maven插件的使用实例.
 
 ## 2.检查
 
-2.1 手动检查 使用`maven checkstyle:check`命令执行手动检查
-2.2 自动检查会在maven执行validate的时候自动执行
+2.1 手动检查 使用`maven checkstyle:check`命令执行手动检查.
+
+2.2 自动检查会在maven执行validate的时候自动执行.
+
+## 3.主要检查项目
+
+3.1 每行代码长度不超过100字符.
+
+3.2 public方法需要写注释.
+
+3.3 代码文件统一UTF-8编码.
+
+3.4 包,类,方法,属性名规范检查.
+
+3.5 空catch块检查.
